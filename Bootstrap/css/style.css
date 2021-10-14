@@ -1,0 +1,82 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* navbar */
+.bg-clr{
+    
+    background:linear-gradient(45deg,black,rgb(34, 44, 65),black) !important;
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+.nav-item{
+transition: all 0.5s;
+}
+.nav-item:hover{
+    background-color: rgb(59, 70, 92);
+}
+/* ---carusal section--- */
+
+/* .carousel-caption{
+    background:  rgba(255,99,71,0.4) !important;
+    height: 50px;
+   
+   
+
+} */
+
+/* -----------about section--------- */
+.about-image{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+
+}
+.box{
+    height: 250px;
+}
+.bg-info ,.btn-info{
+    background-color: #4a8fc1 !important;
+}
+.bg-warning{
+    background-color: #e98716 !important;
+}
+
+
+/* ----service section---- */
+.icon{
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    margin-top: 3px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.icon:hover{
+    background-color: #e98716;
+}
+.image-desc{
+    background: rgba(255,99,71,0.2);
+    right: 0;
+    left: 0;
+}
+
+@media (max-width:590px){
+    .serviceIcon{
+        flex-direction: row !important;
+        
+    }
+
+    .icon {
+        margin: 10px 25px !important;
+    }
+}
+
